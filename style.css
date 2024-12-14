@@ -530,3 +530,126 @@ body {
 .social-link:hover {
     color: #6C63FF; 
 }
+
+
+
+
+/* Responsive untuk HP */
+@media (max-width: 768px) {
+  .planet {
+    display:none;
+  }
+  .rocket {
+    display: none;
+  }
+
+  .hero {
+    padding: 0;
+  }
+
+  .content {
+    margin-right: 0;
+  }
+
+  .content h1{
+    margin: 0;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 350px;
+  }
+ 
+
+  /* Events Section */
+  .events {
+    padding: 20px;
+  }
+
+  .event-card {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .event-image img {
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .event-details {
+    text-align: center;
+  }
+
+  .btn-register {
+    width: 40%;
+  }
+
+  /* About Section */
+  .custom-about-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .custom-about-logo {
+    margin: 0 auto;
+  }
+
+  .custom-about-right {
+    margin: 0;
+    text-align: center;
+  }
+
+  .custom-about-right .custom-heading {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+
+  .custom-about-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Contact Section */
+  .custom-contact-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .custom-contact-text {
+    text-align: center;
+    left: 0;
+    margin-left: 50px;
+    font-size: 1rem;
+  }
+
+  .custom-form {
+    margin: 0 auto;
+  }
+
+  .custom-contact-left .custom-heading {
+    margin-left: 20px;
+  }
+
+  /* Footer */
+  .footer-logo-section {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .footer-logo binus-logo {
+    width: 100px;
+  }
+
+  .social-media-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
